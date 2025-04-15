@@ -57,5 +57,4 @@ pip install -r requirements.txt
 - Deadline countdown timers
 
 ---
-Made with ❤️ to help you never miss a task again.
 
