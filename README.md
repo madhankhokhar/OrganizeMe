@@ -1,13 +1,61 @@
-Smart Todo List with Reminders
-Description
-Smart Todo List is a Python-based task management app that allows users to create and manage tasks with categories, deadlines, and priorities. The app provides smart reminders for tasks due soon, ensuring that you never miss a deadline. Tasks are categorized and can be sorted by priority and due date.
+# Smart Todo List with Reminders
 
-Features
-Add new tasks with title, description, category, deadline, and priority.
-View all tasks, sorted by priority and deadline.
-Mark tasks as completed.
-Receive reminders for upcoming tasks.
-Save and load tasks from a local file for persistence.
+**Smart Todo List** is a Python-based task management app with a simple GUI. It lets users create, organize, and manage tasks by category, priority, and deadline. The app also provides smart reminders for tasks due soon, helping you stay on track.
 
-Usage
-Run the app: python main.py
+## 🚀 Features
+- Add new tasks with:
+  - Title
+  - Description
+  - Category
+  - Deadline (YYYY-MM-DD)
+  - Priority (1–5)
+- View all tasks sorted by priority and deadline
+- Mark tasks as completed
+- Receive reminders for upcoming tasks
+- Save and load tasks from a local file for persistence
+- Graphical User Interface (GUI) built with Tkinter
+
+## 📦 Project Structure
+```
+todoProficiency/
+├── gui.py               # GUI interface using Tkinter
+├── main.py              # CLI entry point (optional)
+├── tasks/
+│   ├── task.py
+│   ├── task_manager.py
+│   ├── data_handler.py
+│   ├── reminder.py
+│   └── notifier.py
+├── requirements.txt     # Required packages (if any)
+└── README.md            # Project documentation
+```
+
+## 🛠️ Usage
+To run the GUI version:
+```bash
+python gui.py
+```
+
+To run the CLI version (if implemented):
+```bash
+python main.py
+```
+
+## 💾 Requirements
+- Python 3.7+
+- Tkinter (comes pre-installed with standard Python distributions)
+
+Install dependencies (if listed):
+```bash
+pip install -r requirements.txt
+```
+
+## 📌 Future Improvements
+- Dark mode support
+- Notifications via system tray
+- Search/filter functionality
+- Deadline countdown timers
+
+---
+Made with ❤️ to help you never miss a task again.
+
