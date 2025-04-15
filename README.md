@@ -1,4 +1,4 @@
-# Smart Todo List with Reminders
+# OrganizeMe - Smart Todo List with Reminders
 
 **Smart Todo List** is a Python-based task management app with a simple GUI. It lets users create, organize, and manage tasks by category, priority, and deadline. The app also provides smart reminders for tasks due soon, helping you stay on track.
 
